@@ -1,0 +1,45 @@
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox/kaustubh$ ls -la
+total 12
+drwx------ 2 dac dac 4096 Oct  3 11:13 .
+drwx------ 3 dac dac 4096 Oct  3 11:01 ..
+-rw------- 1 dac dac    0 Oct  3 11:01 a.txt
+-rw------- 1 dac dac    0 Oct  3 11:01 b.txt
+--w------- 1 dac dac    0 Oct  3 11:01 c.txt
+---x------ 1 dac dac   16 Oct  3 11:14 d.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox/kaustubh$ 
+
+2.
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ echo `ls ~/`
+\ 190840120009 190840120179 190840120179 (1) 190840120179.zip a.out assign14 assign18.cpp aug27 banking batch2 bulbul.txt Calculator1.cpp Calculator.cpp copy corporator.cpp day2 assign Desktop Documents Downloads employee.cpp exam examples.desktop factorial.cpp fibonacci.cpp fibonaccir.cpp kv main.cpp Music MyStack.cpp MyStack.h new *.o os Pictures prac practice prime.cpp programnew Public snap studentclass.cpp Temp2 Temp2.cpp Template.cpp Templates Untitled Document 1 Videos vivo.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ ls ~/
+'\'                  batch2            employee.cpp       MyStack.h    snap
+ 190840120009        bulbul.txt        exam               new          studentclass.cpp
+ 190840120179        Calculator1.cpp   examples.desktop  '*.o'         Temp2
+'190840120179 (1)'   Calculator.cpp    factorial.cpp      os           Temp2.cpp
+ 190840120179.zip    copy              fibonacci.cpp      Pictures     Template.cpp
+ a.out               corporator.cpp    fibonaccir.cpp     prac         Templates
+ assign14           'day2 assign'      kv                 practice    'Untitled Document 1'
+ assign18.cpp        Desktop           main.cpp           prime.cpp    Videos
+ aug27               Documents         Music              programnew   vivo.txt
+ banking             Downloads         MyStack.cpp        Public
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ echo $(ls ~/)
+\ 190840120009 190840120179 190840120179 (1) 190840120179.zip a.out assign14 assign18.cpp aug27 banking batch2 bulbul.txt Calculator1.cpp Calculator.cpp copy corporator.cpp day2 assign Desktop Documents Downloads employee.cpp exam examples.desktop factorial.cpp fibonacci.cpp fibonaccir.cpp kv main.cpp Music MyStack.cpp MyStack.h new *.o os Pictures prac practice prime.cpp programnew Public snap studentclass.cpp Temp2 Temp2.cpp Template.cpp Templates Untitled Document 1 Videos vivo.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ echo "$(ls ~/)"
+
+
+3.
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ echo "$(ls /etc/)"
+
+4.echo "$(ls /etc/ | grep .conf)"
+
+
+5.
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ echo "Kaustubh" > new.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ cat new.txt 
+Kaustubh
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$
+
+6.
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OSC/sandbox$ echo "$(ls /proc/)"
+
+7.

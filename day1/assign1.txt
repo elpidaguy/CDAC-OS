@@ -1,0 +1,694 @@
+$ bash
+dac@dac-Veriton-M200-H310:~$ cd Desktop/
+dac@dac-Veriton-M200-H310:~/Desktop$ cd 8393/
+dac@dac-Veriton-M200-H310:~/Desktop/8393$ cd OS/
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ ls
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ man mkdir
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ mkdir kaustubh -v
+mkdir: created directory 'kaustubh'
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ touch kaustubh/file1 kaustubh/file2 kaustubh/file3
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ ls kaustubh/
+file1  file2  file3
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:111:117::/nonexistent:/bin/false
+kernoops:x:112:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:113:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:114:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:115:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:116:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:117:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:118:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:120:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+cups-pk-helper:x:121:116:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+exam:x:0:0::/home/exam:/bin/sh
+dac:x:1000:1000::/home/dac:/bin/sh
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ alias clear=c
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ man ls
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ ls
+kaustubh
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ cd kaustubh/
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ ls
+file1  file2  file3
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ ls -l
+total 0
+-rw-r--r-- 1 dac dac 0 Oct  2 10:57 file1
+-rw-r--r-- 1 dac dac 0 Oct  2 10:57 file2
+-rw-r--r-- 1 dac dac 0 Oct  2 10:57 file3
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ 
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ ls -la
+total 8
+drwxr-xr-x 2 dac dac 4096 Oct  2 10:57 .
+drwxr-xr-x 3 dac dac 4096 Oct  2 10:56 ..
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file1
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file2
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file3
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ touch .myhidden
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ ls -la
+total 8
+drwxr-xr-x 2 dac dac 4096 Oct  2 11:00 .
+drwxr-xr-x 3 dac dac 4096 Oct  2 10:56 ..
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file1
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file2
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file3
+-rw-r--r-- 1 dac dac    0 Oct  2 11:00 .myhidden
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ touch file1
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ ls -la
+total 8
+drwxr-xr-x 2 dac dac 4096 Oct  2 11:00 .
+drwxr-xr-x 3 dac dac 4096 Oct  2 10:56 ..
+-rw-r--r-- 1 dac dac    0 Oct  2 11:00 file1
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file2
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file3
+-rw-r--r-- 1 dac dac    0 Oct  2 11:00 .myhidden
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/kaustubh$ cd ..
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS$ cd ..
+dac@dac-Veriton-M200-H310:~/Desktop/8393$ ls -la -r
+total 20
+drwxr-xr-x  3 dac dac 4096 Oct  2 10:56 OS
+drwxr-xr-x  5 dac dac 4096 Oct  2 10:55 DS
+drwxr-xr-x 14 dac dac 4096 Sep  6 10:57 CPP
+drwxr-xr-x  9 dac dac 4096 Sep 26 15:16 ..
+drwxrwxr-x  5 dac dac 4096 Oct  2 10:55 .
+dac@dac-Veriton-M200-H310:~/Desktop/8393$ ls -la -R
+.:
+total 20
+drwxrwxr-x  5 dac dac 4096 Oct  2 10:55 .
+drwxr-xr-x  9 dac dac 4096 Sep 26 15:16 ..
+drwxr-xr-x 14 dac dac 4096 Sep  6 10:57 CPP
+drwxr-xr-x  5 dac dac 4096 Oct  2 10:55 DS
+drwxr-xr-x  3 dac dac 4096 Oct  2 10:56 OS
+
+./CPP:
+total 56
+drwxr-xr-x 14 dac dac 4096 Sep  6 10:57 .
+drwxrwxr-x  5 dac dac 4096 Oct  2 10:55 ..
+drwxr-xr-x  2 dac dac 4096 Sep  4 13:53 Address
+drwxr-xr-x  3 dac dac 4096 Sep  3 13:43 Bank
+drwxr-xr-x  4 dac dac 4096 Sep  4 10:57 classwork
+drwxrwxrwx  2 dac dac 4096 Aug 29 19:47 Date
+drwxr-xr-x  2 dac dac 4096 Sep  9 13:24 File
+drwxr-xr-x  2 dac dac 4096 Aug 31 16:55 Mobile
+drwxr-xr-x  2 dac dac 4096 Aug 28 13:39 myString
+drwxr-xr-x  2 dac dac 4096 Aug 29 17:24 Mystring
+drwxr-xr-x  2 dac dac 4096 Aug 30 21:05 PaySlip
+drwxrwxrwx  2 dac dac 4096 Aug 30 18:33 Player
+drwxr-xr-x  2 dac dac 4096 Sep  5 20:18 Template
+drwxrwxrwx  2 dac dac 4096 Sep  9 12:59 Time
+
+./CPP/Address:
+total 40
+drwxr-xr-x  2 dac dac  4096 Sep  4 13:53 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxrwxrwx  1 dac dac  1573 Aug 30 19:59 Address.cpp
+-rwxrwxrwx  1 dac dac   363 Aug 30 19:58 Address.h
+-rwxr-xr-x  1 dac dac 19056 Aug 30 20:00 a.out
+-rwxrwxrwx  1 dac dac   466 Sep  4 13:53 main.cpp
+
+./CPP/Bank:
+total 52
+drwxr-xr-x  3 dac dac  4096 Sep  3 13:43 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 14888 Sep  3 13:42 a.out
+-rw-r--r--  1 dac dac   216 Sep  3 13:37 BankAcc.h
+-rw-r--r--  1 dac dac  1592 Sep  3 13:43 bank.cpp
+-rw-r--r--  1 dac dac   667 Sep  3 13:26 CurrentAcc.cpp
+-rw-r--r--  1 dac dac   302 Sep  3 13:24 CurrentAcc.h
+-rw-r--r--  1 dac dac   659 Sep  3 13:25 SavingAcc.cpp
+-rw-r--r--  1 dac dac   300 Sep  3 13:14 SavingAcc.h
+drwxr-xr-x  2 dac dac  4096 Sep  3 11:47 shape
+
+./CPP/Bank/shape:
+total 32
+drwxr-xr-x 2 dac dac 4096 Sep  3 11:47 .
+drwxr-xr-x 3 dac dac 4096 Sep  3 13:43 ..
+-rw-rw-r-- 1 dac dac  265 Aug 26 22:04 Circle.cpp
+-rw-rw-r-- 1 dac dac  154 Aug 26 22:04 Circle.h
+-rw-rw-r-- 1 dac dac  363 Aug 26 22:04 main.cpp
+-rw-rw-r-- 1 dac dac  423 Aug 26 22:04 Rect.cpp
+-rw-rw-r-- 1 dac dac  192 Sep  3 11:47 Rect.h
+-rw-rw-r-- 1 dac dac  211 Sep  3 11:47 Shape.h
+
+./CPP/classwork:
+total 16
+drwxr-xr-x  4 dac dac 4096 Sep  4 10:57 .
+drwxr-xr-x 14 dac dac 4096 Sep  6 10:57 ..
+drwxr-xr-x  2 dac dac 4096 Sep  3 11:37 exceptionHandling
+drwxr-xr-x  2 dac dac 4096 Sep  4 11:18 fileHandling
+
+./CPP/classwork/exceptionHandling:
+total 52
+drwxr-xr-x 2 dac dac  4096 Sep  3 11:37 .
+drwxr-xr-x 4 dac dac  4096 Sep  4 10:57 ..
+-rwxr-xr-x 1 dac dac 15488 Sep  3 11:37 a.out
+-rw-r--r-- 1 dac dac   230 Sep  3 11:36 main.cpp
+-rw-r--r-- 1 dac dac   545 Sep  3 11:37 MyException.cpp
+-rw-r--r-- 1 dac dac   335 Sep  3 11:32 MyException.h
+-rw-r--r-- 1 dac dac 12288 Sep  3 10:46 .MyException.h.swp
+-rw-r--r-- 1 dac dac   483 Sep  3 11:06 test.cpp
+
+./CPP/classwork/fileHandling:
+total 48
+drwxr-xr-x 2 dac dac  4096 Sep  4 11:18 .
+drwxr-xr-x 4 dac dac  4096 Sep  4 10:57 ..
+-rwxr-xr-x 1 dac dac 14264 Sep  4 11:18 a.out
+-rw-r--r-- 1 dac dac   425 Sep  4 11:18 readFile.cpp
+-rw-r--r-- 1 dac dac    15 Sep  4 11:01 test.txt
+-rw-r--r-- 1 dac dac   234 Sep  4 11:02 writeFile.cpp
+-rw-r--r-- 1 dac dac 12288 Sep  4 11:00 .writeFile.cpp.swp
+
+./CPP/Date:
+total 48
+drwxrwxrwx  2 dac dac  4096 Aug 29 19:47 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 14088 Aug 29 19:46 a.out
+-rwxrwxrwx  1 dac dac  1839 Aug 29 19:45 Date.cpp
+-rwxrwxrwx  1 dac dac   375 Aug 29 19:47 Date.h
+-rwxrwxrwx  1 dac dac   272 Aug 29 19:38 main.cpp
+-rwxrwxrwx  1 dac dac 12288 Aug 27 21:28 .Timemain.cpp.swp
+
+./CPP/File:
+total 56
+drwxr-xr-x  2 dac dac  4096 Sep  9 13:24 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 20120 Sep  9 13:22 a.out
+-rw-r--r--  1 dac dac   208 Sep  4 12:27 bin.dat
+-rw-r--r--  1 dac dac   208 Sep  4 12:12 demm.txt
+-rwxrwxrwx  1 dac dac  2103 Sep  9 13:24 main.cpp
+-rwxrwxrwx  1 dac dac   660 Sep  9 12:56 Player.cpp
+-rwxrwxrwx  1 dac dac   258 Sep  4 12:41 Player.h
+-rw-r--r--  1 dac dac   312 Sep  4 11:52 player.txt
+-rw-r--r--  1 dac dac    37 Sep  9 13:17 testchr.txt
+
+./CPP/Mobile:
+total 92
+drwxr-xr-x  2 dac dac  4096 Aug 31 16:55 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 20776 Aug 31 16:53 a.out
+-rw-r--r--  1 dac dac  1510 Aug 31 16:55 main.cpp
+-rw-r--r--  1 dac dac 12288 Aug 31 15:47 .main.cpp.swo
+-rw-r--r--  1 dac dac 12288 Aug 31 15:37 .main.cpp.swp
+-rw-r--r--  1 dac dac  1399 Aug 31 16:55 MobilePhone.cpp
+-rw-r--r--  1 dac dac 12288 Aug 31 15:39 .MobilePhone.cpp.swp
+-rw-r--r--  1 dac dac   402 Aug 31 16:55 MobilePhone.h
+-rw-r--r--  1 dac dac 12288 Aug 31 15:13 .MobilePhone.h.swp
+
+./CPP/myString:
+total 36
+drwxr-xr-x  2 dac dac  4096 Aug 28 13:39 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 14136 Aug 28 13:37 a.out
+-rw-r--r--  1 dac dac   213 Aug 28 13:37 main.cpp
+-rw-r--r--  1 dac dac   641 Aug 28 13:33 MyString.cpp
+-rw-r--r--  1 dac dac   253 Aug 28 13:30 MyString.h
+
+./CPP/Mystring:
+total 32
+drwxr-xr-x  2 dac dac  4096 Aug 29 17:24  .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57  ..
+-rw-r--r--  1 dac dac   637 Aug 29 16:02 '\'
+-rwxr-xr-x  1 dac dac 13960 Aug 29 16:02  a.out
+-rw-r--r--  1 dac dac   637 Aug 29 17:24  String.cpp
+
+./CPP/PaySlip:
+total 36
+drwxr-xr-x  2 dac dac  4096 Aug 30 21:05 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 14808 Aug 30 21:04 a.out
+-rwxrwxrwx  1 dac dac   381 Aug 30 21:05 main.cpp
+-rwxrwxrwx  1 dac dac   959 Aug 30 21:04 PaySlip.cpp
+-rwxrwxrwx  1 dac dac   327 Aug 30 21:04 PaySlip.h
+
+./CPP/Player:
+total 52
+drwxrwxrwx  2 dac dac  4096 Aug 30 18:33 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 18992 Aug 30 18:32 a.out
+-rwxrwxrwx  1 dac dac   552 Aug 30 18:33 main.cpp
+-rwxrwxrwx  1 dac dac   918 Aug 30 18:33 Player.cpp
+-rwxrwxrwx  1 dac dac   323 Aug 30 18:33 Player.h
+-rwxrwxrwx  1 dac dac 12288 Aug 27 21:28 .Timemain.cpp.swp
+
+./CPP/Template:
+total 40
+drwxr-xr-x  2 dac dac  4096 Sep  5 20:18 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 26880 Sep  5 20:18 a.out
+-rw-r--r--  1 dac dac   778 Sep  5 20:17 MyArray.cpp
+
+./CPP/Time:
+total 48
+drwxrwxrwx  2 dac dac  4096 Sep  9 12:59 .
+drwxr-xr-x 14 dac dac  4096 Sep  6 10:57 ..
+-rwxr-xr-x  1 dac dac 13688 Sep  9 12:59 a.out
+-rwxrwxrwx  1 dac dac   275 Aug 28 12:17 main.cpp
+-rwxrwxrwx  1 dac dac  1170 Aug 28 12:16 Time.cpp
+-rwxrwxrwx  1 dac dac   268 Aug 28 12:07 Time.h
+-rwxrwxrwx  1 dac dac 12288 Aug 27 21:28 .Timemain.cpp.swp
+
+./DS:
+total 24
+drwxr-xr-x  5 dac dac 4096 Oct  2 10:55 .
+drwxrwxr-x  5 dac dac 4096 Oct  2 10:55 ..
+drwxr-xr-x  2 dac dac 4096 Sep  6 12:47 binaryStack
+drwxr-xr-x 16 dac dac 4096 Sep 18 15:11 classwork
+-rw-r--r--  1 dac dac 1962 Sep 24 13:57 et.cpp
+drwxr-xr-x  2 dac dac 4096 Sep  6 13:30 octalStack
+
+./DS/binaryStack:
+total 36
+drwxr-xr-x 2 dac dac  4096 Sep  6 12:47 .
+drwxr-xr-x 5 dac dac  4096 Oct  2 10:55 ..
+-rwxr-xr-x 1 dac dac 14368 Sep  6 12:47 a.out
+-rw-r--r-- 1 dac dac   102 Sep  6 12:17 main.cpp
+-rw-r--r-- 1 dac dac   949 Sep  6 12:47 MyStack.cpp
+-rw-r--r-- 1 dac dac   306 Sep  6 12:21 MyStack.h
+
+./DS/classwork:
+total 64
+drwxr-xr-x 16 dac dac 4096 Sep 18 15:11  .
+drwxr-xr-x  5 dac dac 4096 Oct  2 10:55  ..
+drwxr-xr-x  7 dac dac 4096 Sep 20 11:44  Assignment
+drwxr-xr-x  2 dac dac 4096 Sep 18 15:02  BST
+drwxr-xr-x  2 dac dac 4096 Sep  7 20:14  C2
+drwxr-xr-x  2 dac dac 4096 Sep 12 15:32  CLL
+drwxr-xr-x  2 dac dac 4096 Sep  9 11:56  cqueue
+drwxr-xr-x  2 dac dac 4096 Sep 17 13:27  DCLL
+drwxr-xr-x  2 dac dac 4096 Sep 18 14:45  DLL
+drwxr-xr-x  2 dac dac 4096 Sep 13 12:42  DQueueList
+drwxr-xr-x  2 dac dac 4096 Sep 18 14:49  LL
+drwxr-xr-x  2 dac dac 4096 Sep 13 12:34  queueList
+drwxr-xr-x  2 dac dac 4096 Sep  6 11:20  stack
+drwxr-xr-x  2 dac dac 4096 Sep 13 12:30  stackList
+drwxr-xr-x  2 dac dac 4096 Sep 17 12:56  STL
+drwxr-xr-x  2 dac dac 4096 Sep  7 18:19 'template dynamic'
+
+./DS/classwork/Assignment:
+total 28
+drwxr-xr-x  7 dac dac 4096 Sep 20 11:44 .
+drwxr-xr-x 16 dac dac 4096 Sep 18 15:11 ..
+drwxr-xr-x  2 dac dac 4096 Sep 20 13:43 LLofLL
+drwxr-xr-x  2 dac dac 4096 Sep 20 11:43 memset
+drwxr-xr-x  2 dac dac 4096 Sep 20 12:55 merge
+drwxr-xr-x  2 dac dac 4096 Sep 18 16:08 oddeven
+drwxr-xr-x  2 dac dac 4096 Sep 18 16:31 succAdd
+
+./DS/classwork/Assignment/LLofLL:
+total 17980
+drwxr-xr-x 2 dac dac     4096 Sep 20 13:43 .
+drwxr-xr-x 7 dac dac     4096 Sep 20 11:44 ..
+-rwxr-xr-x 1 dac dac    14400 Sep 20 13:35 a.out
+-rw-r--r-- 1 dac dac     1262 Sep 20 13:43 LL.cpp
+-rw-r--r-- 1 dac dac      322 Sep 20 13:20 LL.h
+-rw-r--r-- 1 dac dac 18339376 Sep 20 12:12 LL.h.gch
+-rw-r--r-- 1 dac dac      566 Sep 20 13:34 main.cpp
+-rw-r--r-- 1 dac dac      277 Sep 20 11:55 Node.cpp
+-rw-r--r-- 1 dac dac      249 Sep 20 11:55 Node.h
+
+./DS/classwork/Assignment/memset:
+total 28
+drwxr-xr-x 2 dac dac  4096 Sep 20 11:43 .
+drwxr-xr-x 7 dac dac  4096 Sep 20 11:44 ..
+-rwxr-xr-x 1 dac dac 13144 Sep 20 11:43 a.out
+-rw-r--r-- 1 dac dac   502 Sep 20 11:43 memset.cpp
+
+./DS/classwork/Assignment/merge:
+total 48
+drwxr-xr-x 2 dac dac  4096 Sep 20 12:55 .
+drwxr-xr-x 7 dac dac  4096 Sep 20 11:44 ..
+-rwxr-xr-x 1 dac dac 18944 Sep 20 12:53 a.out
+-rw-r--r-- 1 dac dac  3686 Sep 20 12:55 LinkedList.cpp
+-rw-r--r-- 1 dac dac   450 Sep 18 16:41 LinkedList.h
+-rw-r--r-- 1 dac dac  2028 Sep 18 16:59 main.cpp
+-rw-r--r-- 1 dac dac   337 Sep 10 13:15 Node.cpp
+-rw-r--r-- 1 dac dac   298 Sep 18 14:42 Node.h
+
+./DS/classwork/Assignment/oddeven:
+total 48
+drwxr-xr-x 2 dac dac  4096 Sep 18 16:08 .
+drwxr-xr-x 7 dac dac  4096 Sep 20 11:44 ..
+-rwxr-xr-x 1 dac dac 18864 Sep 18 16:08 a.out
+-rw-r--r-- 1 dac dac  3492 Sep 18 16:08 DLL.cpp
+-rw-r--r-- 1 dac dac   383 Sep 18 15:26 DLL.h
+-rw-r--r-- 1 dac dac  1841 Sep 18 16:01 main.cpp
+-rw-r--r-- 1 dac dac   442 Sep 13 11:27 Node.cpp
+-rw-r--r-- 1 dac dac   304 Sep 12 22:43 Node.h
+
+./DS/classwork/Assignment/succAdd:
+total 48
+drwxr-xr-x 2 dac dac  4096 Sep 18 16:31 .
+drwxr-xr-x 7 dac dac  4096 Sep 20 11:44 ..
+-rwxr-xr-x 1 dac dac 18944 Sep 18 16:31 a.out
+-rw-r--r-- 1 dac dac  3454 Sep 18 16:31 LinkedList.cpp
+-rw-r--r-- 1 dac dac   438 Sep 18 15:12 LinkedList.h
+-rw-r--r-- 1 dac dac  1838 Sep 18 16:17 main.cpp
+-rw-r--r-- 1 dac dac   337 Sep 10 13:15 Node.cpp
+-rw-r--r-- 1 dac dac   298 Sep 18 14:42 Node.h
+
+./DS/classwork/BST:
+total 48
+drwxr-xr-x  2 dac dac  4096 Sep 18 15:02 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 19536 Sep 18 15:02 a.out
+-rw-r--r--  1 dac dac  2477 Sep 18 15:01 BST.cpp
+-rw-r--r--  1 dac dac   546 Sep 18 14:59 BST.h
+-rw-r--r--  1 dac dac  1205 Sep 18 15:02 main.cpp
+-rw-r--r--  1 dac dac   578 Sep 15 22:40 TreeNode.cpp
+-rw-r--r--  1 dac dac   360 Sep 15 22:40 TreeNode.h
+
+./DS/classwork/C2:
+total 44
+drwxr-xr-x  2 dac dac  4096 Sep  7 20:14 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 24128 Sep  7 20:14 a.out
+-rw-r--r--  1 dac dac  1300 Sep  7 20:14 C2.cpp
+-rw-r--r--  1 dac dac   336 Sep  7 19:39 C2.h
+-rw-r--r--  1 dac dac  1511 Sep  7 20:13 main.cpp
+
+./DS/classwork/CLL:
+total 128
+drwxr-xr-x  2 dac dac  4096 Sep 12 15:32 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 18680 Sep 12 15:25 a.out
+-rw-r--r--  1 dac dac  3053 Sep 12 15:24 CLL.cpp
+-rw-r--r--  1 dac dac   392 Sep 12 15:24 CLL.h
+-rw-r--r--  1 dac dac  3052 Sep 12 14:50 LinkedList.cpp
+-rw-r--r--  1 dac dac   415 Sep 11 16:57 LinkedList.h
+-rw-r--r--  1 dac dac  1766 Sep 12 15:25 main.cpp
+-rw-r--r--  1 dac dac   337 Sep 10 13:15 Node.cpp
+-rw-r--r--  1 dac dac   298 Sep 10 13:13 Node.h
+-rwxr-xr-x  1 dac dac 68928 Sep 11 15:58 try
+
+./DS/classwork/cqueue:
+total 36
+drwxr-xr-x  2 dac dac  4096 Sep  9 11:56 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 15088 Sep  9 11:56 a.out
+-rw-r--r--  1 dac dac   629 Sep  9 11:55 main.cpp
+-rw-r--r--  1 dac dac   858 Sep  9 11:56 Queue.cpp
+-rw-r--r--  1 dac dac   319 Sep  9 11:54 Queue.h
+
+./DS/classwork/DCLL:
+total 48
+drwxr-xr-x  2 dac dac  4096 Sep 17 13:27 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 18736 Sep 17 13:17 a.out
+-rw-r--r--  1 dac dac  3058 Sep 17 13:27 DCLL.cpp
+-rw-r--r--  1 dac dac   387 Sep 17 13:00 DCLL.h
+-rw-r--r--  1 dac dac  1877 Sep 17 13:13 main.cpp
+-rw-r--r--  1 dac dac   442 Sep 13 11:27 Node.cpp
+-rw-r--r--  1 dac dac   304 Sep 12 22:43 Node.h
+
+./DS/classwork/DLL:
+total 35924
+drwxr-xr-x  2 dac dac     4096 Sep 18 14:45 .
+drwxr-xr-x 16 dac dac     4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac    18680 Sep 18 14:45 a.out
+-rw-r--r--  1 dac dac     2640 Sep 13 11:30 DLL.cpp
+-rw-r--r--  1 dac dac      365 Sep 13 11:28 DLL.h
+-rw-r--r--  1 dac dac 18351696 Sep 13 11:28 DLL.h.gch
+-rw-r--r--  1 dac dac     1780 Sep 12 23:01 main.cpp
+-rw-r--r--  1 dac dac      442 Sep 13 11:27 Node.cpp
+-rw-r--r--  1 dac dac      304 Sep 12 22:43 Node.h
+-rw-r--r--  1 dac dac 18331152 Sep 13 11:23 Node.h.gch
+
+./DS/classwork/DQueueList:
+total 52
+drwxr-xr-x  2 dac dac  4096 Sep 13 12:42 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 14680 Sep 13 12:42 a.out
+-rw-r--r--  1 dac dac  2974 Sep 13 12:42 LL.cpp
+-rw-r--r--  1 dac dac   393 Sep 13 12:41 LL.h
+-rw-r--r--  1 dac dac  1102 Sep 13 12:40 main.cpp
+-rw-r--r--  1 dac dac   337 Sep 10 13:15 Node.cpp
+-rw-r--r--  1 dac dac   298 Sep 10 13:13 Node.h
+-rw-r--r--  1 dac dac   638 Sep 13 12:41 QueueList.cpp
+-rw-r--r--  1 dac dac   305 Sep 13 12:41 QueueList.h
+
+./DS/classwork/LL:
+total 56
+drwxr-xr-x  2 dac dac  4096 Sep 18 14:49 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 18760 Sep 18 14:49 a.out
+-rw-r--r--  1 dac dac  3052 Sep 18 14:43 LinkedList.cpp
+-rw-r--r--  1 dac dac   415 Sep 11 16:57 LinkedList.h
+-rw-r--r--  1 dac dac  2964 Sep 11 16:36 LL.cpp
+-rw-r--r--  1 dac dac   385 Sep 11 16:28 LL.h
+-rw-r--r--  1 dac dac  1752 Sep 18 14:44 main.cpp
+-rw-r--r--  1 dac dac   337 Sep 10 13:15 Node.cpp
+-rw-r--r--  1 dac dac   298 Sep 18 14:42 Node.h
+
+./DS/classwork/queueList:
+total 52
+drwxr-xr-x  2 dac dac  4096 Sep 13 12:34 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 14440 Sep 13 12:34 a.out
+-rw-r--r--  1 dac dac  2975 Sep 13 12:34 LL.cpp
+-rw-r--r--  1 dac dac   397 Sep 13 12:33 LL.h
+-rw-r--r--  1 dac dac   751 Sep 13 12:33 main.cpp
+-rw-r--r--  1 dac dac   337 Sep 10 13:15 Node.cpp
+-rw-r--r--  1 dac dac   298 Sep 10 13:13 Node.h
+-rw-r--r--  1 dac dac   437 Sep 13 12:32 QueueList.cpp
+-rw-r--r--  1 dac dac   234 Sep 13 12:31 QueueList.h
+
+./DS/classwork/stack:
+total 36
+drwxr-xr-x  2 dac dac  4096 Sep  6 11:20 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 14656 Sep  6 11:20 a.out
+-rw-r--r--  1 dac dac   505 Sep  6 11:19 main.cpp
+-rw-r--r--  1 dac dac   646 Sep  6 11:19 MyStack.cpp
+-rw-r--r--  1 dac dac   260 Sep  6 11:17 MyStack.h
+
+./DS/classwork/stackList:
+total 52
+drwxr-xr-x  2 dac dac  4096 Sep 13 12:30 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 14432 Sep 13 12:29 a.out
+-rw-r--r--  1 dac dac  2981 Sep 13 12:23 LL.cpp
+-rw-r--r--  1 dac dac   397 Sep 13 12:22 LL.h
+-rw-r--r--  1 dac dac   725 Sep 13 12:30 main.cpp
+-rw-r--r--  1 dac dac   337 Sep 10 13:15 Node.cpp
+-rw-r--r--  1 dac dac   298 Sep 10 13:13 Node.h
+-rw-r--r--  1 dac dac   427 Sep 13 12:29 StackList.cpp
+-rw-r--r--  1 dac dac   222 Sep 13 12:29 StackList.h
+
+./DS/classwork/STL:
+total 48
+drwxr-xr-x  2 dac dac  4096 Sep 17 12:56 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 29672 Sep 17 12:56 a.out
+-rw-r--r--  1 dac dac     0 Sep 13 12:46 DQueue.cpp
+-rw-r--r--  1 dac dac   968 Sep 17 12:56 list.cpp
+-rw-r--r--  1 dac dac  1999 Sep 13 13:02 vector.cpp
+
+'./DS/classwork/template dynamic':
+total 40
+drwxr-xr-x  2 dac dac  4096 Sep  7 18:19 .
+drwxr-xr-x 16 dac dac  4096 Sep 18 15:11 ..
+-rwxr-xr-x  1 dac dac 19520 Sep  7 18:19 a.out
+-rw-r--r--  1 dac dac   846 Sep  7 18:19 main.cpp
+-rw-r--r--  1 dac dac   993 Sep  7 18:15 MyStack.cpp
+-rw-r--r--  1 dac dac   282 Sep  7 18:12 MyStack.h
+
+./DS/octalStack:
+total 36
+drwxr-xr-x 2 dac dac  4096 Sep  6 13:30 .
+drwxr-xr-x 5 dac dac  4096 Oct  2 10:55 ..
+-rwxr-xr-x 1 dac dac 14576 Sep  6 13:11 a.out
+-rw-r--r-- 1 dac dac   451 Sep  6 13:30 main.cpp
+-rw-r--r-- 1 dac dac  1088 Sep  6 13:11 MyStack.cpp
+-rw-r--r-- 1 dac dac   330 Sep  6 13:08 MyStack.h
+
+./OS:
+total 12
+drwxr-xr-x 3 dac dac 4096 Oct  2 10:56 .
+drwxrwxr-x 5 dac dac 4096 Oct  2 10:55 ..
+drwxr-xr-x 2 dac dac 4096 Oct  2 11:00 kaustubh
+
+./OS/kaustubh:
+total 8
+drwxr-xr-x 2 dac dac 4096 Oct  2 11:00 .
+drwxr-xr-x 3 dac dac 4096 Oct  2 10:56 ..
+-rw-r--r-- 1 dac dac    0 Oct  2 11:00 file1
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file2
+-rw-r--r-- 1 dac dac    0 Oct  2 10:57 file3
+-rw-r--r-- 1 dac dac    0 Oct  2 11:00 .myhidden
+dac@dac-Veriton-M200-H310:~/Desktop/8393$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ mkdir a b c
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ;s
+bash: syntax error near unexpected token `;'
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls
+a  b  c  hardlink  link  softlink
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ touch a/a.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls
+a  b  c  hardlink  link  softlink
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls a/
+a.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ touch b/b.txt c/c.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls -R
+.:
+a  b  c  hardlink  link  softlink
+
+./a:
+a.txt
+
+./b:
+b.txt
+
+./c:
+c.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ mv c a
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls
+a  b  hardlink  link  softlink
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls -R
+.:
+a  b  hardlink  link  softlink
+
+./a:
+a.txt  c
+
+./a/c:
+c.txt
+
+./b:
+b.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ man mv
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ man cp
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ 
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ mv a/c .
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls
+a  b  c  hardlink  link  softlink
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls -R
+.:
+a  b  c  hardlink  link  softlink
+
+./a:
+a.txt
+
+./b:
+b.txt
+
+./c:
+c.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ cp c a
+cp: -r not specified; omitting directory 'c'
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ cp -r c a
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls -R
+.:
+a  b  c  hardlink  link  softlink
+
+./a:
+a.txt  c
+
+./a/c:
+c.txt
+
+./b:
+b.txt
+
+./c:
+c.txt
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ 
+
+
+
+
+
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ alias kaustubh='ls -lh'
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ kaustubh
+total 20K
+drwxr-xr-x 3 dac dac 4.0K Oct  2 11:58 a
+drwxr-xr-x 2 dac dac 4.0K Oct  2 11:56 b
+drwxr-xr-x 2 dac dac 4.0K Oct  2 11:56 c
+-rw-r--r-- 2 dac dac   40 Oct  2 11:41 hardlink
+-rw-r--r-- 2 dac dac   40 Oct  2 11:41 link
+lrwxrwxrwx 1 dac dac    4 Oct  2 11:19 softlink -> link
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$
+
+
+
+
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ mv a cdac
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls
+b  c  cdac  hardlink  link  softlink
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ 
+
+
+
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ cat file1.txt file2.txt file3.txt file4.txt file5.txt | grep s
+my name is kaustubh.
+My tech and toys.
+He is not anyone.
+That guy is John Wick.
+I once saw him kill 3 men with a pencil.
+In this world, those who break the rules are scum.
+But those who abandon their friends are worst than scum.
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ 
+
+
+
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ cat > nano.txt
+not edited yetdac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ 
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ ls
+b  c  cdac  file1.txt  file2.txt  file3.txt  file4.txt  file5.txt  hardlink  link  nano.txt  softlink
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ nano nano.txt 
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ cat nano.txt 
+not edited yet
+
+
+edited in nano editor
+
+
+dac@dac-Veriton-M200-H310:~/Desktop/8393/OS/sandbox$ 
